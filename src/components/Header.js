@@ -71,19 +71,3 @@ const Navigation = () => (
 
 
 export default Navigation
-
-// @media (min-width: ${media.smallMin}) {
-//   max-width: 540px;
-// }
-
-// @media (min-width: ${media.mediumMin}) {
-//   max-width: 720px;
-// }
-
-// @media (min-width: ${media.largeMin}) {
-//   max-width: 960px;
-// }
-
-// @media (min-width: ${media.xl}) {
-//   max-width: 1160px;
-// }

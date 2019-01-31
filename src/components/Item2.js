@@ -6,7 +6,7 @@ const Item2 = styled.div`
   margin: 1%;
   text-align: center;
 
-  @media (max-width: ${media.mediumMax}) {
+  @media (max-width: ${media.smallMax}) {
     order: -1;
   }
 `;
