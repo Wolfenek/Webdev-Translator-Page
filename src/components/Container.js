@@ -6,6 +6,7 @@ const Container = styled.div`
   display: flex;
   /* below probably needed */
   flex-wrap: ${({wrapTrue}) => wrapTrue ? 'wrap': 'no-wrap'};
+  align-items: ${({centerTrue}) => centerTrue ? 'center' : 'stretch'};
   width: 100%;
   padding: 0;
   margin: 0 auto;
