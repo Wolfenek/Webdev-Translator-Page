@@ -1,15 +1,15 @@
 import styled from 'styled-components'
 import { media } from '../utils/media'
+import { shadowBg } from '../utils/shadowBg'
 
 const Container = styled.div`
   display: flex;
-  /* below probably not needed */
+  /* below probably needed */
   flex-wrap: ${({wrapTrue}) => wrapTrue ? 'wrap': 'no-wrap'};
   width: 100%;
   padding: 0;
   margin: 0 auto;
-  background: #1a191a;
-  box-shadow: 0 2px 8px 2px rgba(13,13,13,1);
+  ${shadowBg}
   border-radius: 1%;
 
   @media (min-width: ${media.smallMin}) {

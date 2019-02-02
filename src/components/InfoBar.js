@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { media } from '../utils/media'
-import Container from './Container'
 
 // it actually doesn't need to be flex
 const InfoBar = styled.div`

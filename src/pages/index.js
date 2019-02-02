@@ -8,6 +8,7 @@ import Item1 from '../components/Item1';
 import Item2 from '../components/Item2';
 import Item3 from '../components/Item3';
 import InfoBar from '../components/InfoBar';
+import Project from '../components/Project';
 
 const WebDevelopment = () => (
   <>
@@ -31,15 +32,16 @@ const WebDevelopment = () => (
       </Container>
       {/* Start Section 2 */}
       <InfoBar>
-        <h3 style={{fontSize: '0.8em', color: 'black', margin: '0', textAlign: 'left', marginLeft: '1%'}}>Hello there</h3>
+        <h3 style={{fontSize: '0.8em', color: 'black', margin: '0', textAlign: 'left', marginLeft: '1%'}}>Grid here</h3>
       </InfoBar>
       <Container wrapTrue>
-        <Item3>
+        {/* <Item3>
           <h1>Hello world, I'm coder </h1>
           <p>I like to bla bla bla and also lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel lorem pixel </p>
           <hr></hr>
           <h3>Contact me for the juice rock rock rock rock rock rock rock rock rock rock rock </h3>
-        </Item3>
+        </Item3> */}
+        <Project />
       </Container>
     </Layout>
   </>

@@ -1,0 +1,1 @@
+export const shadowBg = 'background: #1a191a; box-shadow: 0 2px 8px 2px rgba(13,13,13,1);'
